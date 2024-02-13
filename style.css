@@ -60,12 +60,12 @@ body {
 
 .text {
   position: absolute;
-  font-family:  'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
   font-size: 28px;
   text-align: center;
   line-height: 25px;
   top: 19px;
-  left: 85px;
+  left: 55px;
   color: #003049;
 }
 
@@ -130,10 +130,9 @@ body {
   height: 25px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.3);
-  bottom: 250px;
-  left: 650px;
   animation: scale 3s linear infinite;
   z-index: -1;
+  bottom: calc(50% - 25%);
 }
 
 /* To move the envelope up and down */
